@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="Page-1" id="BYpQI4XTyPwFm8TuNRjK">
-    <mxGraphModel>
+    <mxGraphModel dx="2603" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-71" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="460" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="160" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="190" width="160" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-9" value="指定debian基础镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-10" value="下载部署虚拟机过程中所需的工具包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-11" value="下载virtio驱动包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-12" value="定义虚拟机配置信息的环境变量、卷、端口信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-13" value="挂载持久化卷" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-14" value="设置容器端口映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-15" value="挂载kvm设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-16" value="开启NET_ADMIN权限，网络tap设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-70" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="105" width="420" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-7" target="55VfZpbfIY-dUhr3XNBg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-7" value="检查宿主机CPU，RAM，文件系统兼容性等信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="157" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-23" target="55VfZpbfIY-dUhr3XNBg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-23" target="55VfZpbfIY-dUhr3XNBg-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-23" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;根据base和img&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;文件判断是否重新&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;安装windows&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="154.5" y="90" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-24" target="55VfZpbfIY-dUhr3XNBg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-24" target="55VfZpbfIY-dUhr3XNBg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-24" value="检查是否已有&lt;div&gt;iso安装文件&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="155" y="200" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-27" target="55VfZpbfIY-dUhr3XNBg-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-27" target="55VfZpbfIY-dUhr3XNBg-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-27" value="检查&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;iso是否&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已通过script处理&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="155" y="310" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-29" target="55VfZpbfIY-dUhr3XNBg-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-29" value="下载iso" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="30" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-33" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="101.5" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-37" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="210" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-40" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="210" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-44" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="210" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-48" target="55VfZpbfIY-dUhr3XNBg-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-48" value="配置以cdrom方式启动虚拟机" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="158.5" y="440" width="117.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-49" target="55VfZpbfIY-dUhr3XNBg-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-49" value="配置以磁盘镜像方式启动虚拟机" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-53" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="100" y="322" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-70" source="55VfZpbfIY-dUhr3XNBg-58" target="55VfZpbfIY-dUhr3XNBg-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-58" value="重新制作iso，写入驱动程序，无人值守安装配置，预装程序bat脚本" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-62" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="158" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-67" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
+          <mxGeometry x="290" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
