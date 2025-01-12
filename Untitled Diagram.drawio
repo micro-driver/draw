@@ -158,26 +158,32 @@
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-130">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="890" as="targetPoint" />
+            <mxPoint x="-60" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-130" value="选择支持kvm虚拟化的linux宿主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="-230" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-132" target="55VfZpbfIY-dUhr3XNBg-133">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-132" value="在宿主机上构建os为debian的docker容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="-60" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-133" target="55VfZpbfIY-dUhr3XNBg-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-133" target="55VfZpbfIY-dUhr3XNBg-135">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-133" value="容器内使用qemu运行一台windows虚拟机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-134" value="使用kvm加速cpu和内存模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-135" value="使用virtio加速磁盘和网络io模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="860" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-136" value="使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-110" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="820" y="80" width="300" height="610" as="geometry" />
