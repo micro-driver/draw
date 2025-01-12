@@ -156,35 +156,6 @@
         <mxCell id="55VfZpbfIY-dUhr3XNBg-67" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-70">
           <mxGeometry x="290" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-130">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-60" y="890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-130" value="选择支持kvm虚拟化的linux宿主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="860" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-132" target="55VfZpbfIY-dUhr3XNBg-133">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-132" value="在宿主机上构建os为debian的docker容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="860" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-133" target="55VfZpbfIY-dUhr3XNBg-134">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="55VfZpbfIY-dUhr3XNBg-133" target="55VfZpbfIY-dUhr3XNBg-135">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-133" value="容器内使用qemu运行一台windows虚拟机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="860" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-134" value="使用kvm加速cpu和内存模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="55VfZpbfIY-dUhr3XNBg-135" value="使用virtio加速磁盘和网络io模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-110" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="820" y="80" width="300" height="610" as="geometry" />
         </mxCell>
@@ -256,6 +227,116 @@
         </mxCell>
         <mxCell id="55VfZpbfIY-dUhr3XNBg-160" value="" style="line;strokeWidth=1;direction=south;html=1;" vertex="1" parent="1">
           <mxGeometry x="965" y="274.5" width="10" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-170" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-175" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="1360" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-221" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-220" y="790" width="830" height="341.1500000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-178" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="710" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-166" value="" style="group" vertex="1" connectable="0" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="10" width="630" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-166" source="55VfZpbfIY-dUhr3XNBg-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-130" value="选择支持kvm虚拟化的linux宿主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-166">
+          <mxGeometry y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-166" source="55VfZpbfIY-dUhr3XNBg-132" target="55VfZpbfIY-dUhr3XNBg-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-132" value="在宿主机上构建os为debian的docker容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-166">
+          <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-166" source="55VfZpbfIY-dUhr3XNBg-133" target="55VfZpbfIY-dUhr3XNBg-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-166" source="55VfZpbfIY-dUhr3XNBg-133" target="55VfZpbfIY-dUhr3XNBg-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-133" value="容器内使用qemu运行一台windows虚拟机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-166">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-134" value="使用kvm加速cpu和内存模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-166">
+          <mxGeometry x="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-135" value="使用virtio加速磁盘和网络io模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-166">
+          <mxGeometry x="518" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-221" source="55VfZpbfIY-dUhr3XNBg-134" target="55VfZpbfIY-dUhr3XNBg-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-221" source="55VfZpbfIY-dUhr3XNBg-135" target="55VfZpbfIY-dUhr3XNBg-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-176" value="GUI页面" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="172" y="209.42" width="178" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-221" source="55VfZpbfIY-dUhr3XNBg-177" target="55VfZpbfIY-dUhr3XNBg-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-221" source="55VfZpbfIY-dUhr3XNBg-177" target="55VfZpbfIY-dUhr3XNBg-204">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-177" value="windows虚拟机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="710" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-179" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="730.28" y="51" width="53" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-180" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.online_user;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="20" y="259.42" width="54" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-182" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="280.42" as="sourcePoint" />
+            <mxPoint x="160" y="280.42" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="280.42" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-202" value="用户" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="10" y="310.5700000000001" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-204" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.vm_group;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="705.55" y="220" width="108.9" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-214" value="访问" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="80" y="249.42" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-215" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="sourcePoint" />
+            <mxPoint x="690" y="279" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-216" value="管理&amp;amp;调度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="610" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-219" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.sites.site_collection;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="540" y="261.5" width="52" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55VfZpbfIY-dUhr3XNBg-220" value="管理平台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="55VfZpbfIY-dUhr3XNBg-221">
+          <mxGeometry x="536" y="303" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
